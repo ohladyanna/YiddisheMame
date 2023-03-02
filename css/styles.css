@@ -1,1 +1,623 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(64, 62, 62);
+    padding: 10 px;
+}
+.item {
+    color: whitesmoke;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+.first {
+    margin-right: auto;
+    font-family: 'Playfair Display', serif;
+    font-size: 19px;
+}
 
+
+
+
+.heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.entres {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 40px;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    
+    }
+    .horizontal {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .plan {
+        display: flex;
+        flex-direction: column;
+    }
+    .two {
+        margin-top: 50px;
+    }
+    .capture {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .cap {
+        font-style: italic;
+        font-weight: bolder;
+        letter-spacing: .05em;
+        font-size: 15px;
+    }
+    .chef {
+        display: flex;
+        justify-content: center;
+    }
+    .che {
+        font-style: italic;
+
+    }
+    .cta {
+        display: flex;
+        justify-content: center;
+    }
+    .reservation {
+        text-transform: uppercase;
+        letter-spacing: .3em;
+        padding: 15px;
+        background-color: black;
+        color: azure;
+        width: 300px;
+        cursor: wait;
+        }
+        .reservation:hover {
+            background-color: bisque;
+            transition-duration: 2s;
+            color: black;
+        } 
+    .desert {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .name {
+        /*font-family: 'Playfair Display', serif;*/
+        font-family: 'Bodoni Moda', serif;
+        
+        font-size: 40px;
+        letter-spacing: .03em;
+        text-transform: uppercase;
+    }
+    .capdes {
+        font-style: italic;
+        font-weight: bolder;
+    }
+    .food {
+        height: 500px;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        background-color: rgb(237, 237, 231);
+        
+        
+    }
+    .container {
+        padding: 10px;
+        font-family: 'Bodoni Moda', serif;
+        
+    }
+    .reserve {
+        font-family: 'Bodoni Moda', serif;
+        font-size: 40px;
+        text-transform: uppercase;
+        letter-spacing: .10em;
+    }
+    .border {
+        padding: 50px;
+        font-size: 17px;
+    }
+    
+    
+    .notes {
+        font-style: italic;
+        
+    }
+    .find {
+        background-color: black;
+        color: white;
+        letter-spacing: .30em;
+        font-family: 'Bodoni Moda', serif;
+        padding: 15px;
+        width: 20%;
+        font-size: 15px;
+        
+    }
+    .openHours {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hours {
+        font-family: 'Bodoni Moda', serif;
+    }
+   .foodtwo {
+
+    width: 500px;
+    padding: 10px;
+    
+   }
+   .foodname {
+    font-style: italic;
+   }
+    .dishes {
+        font-family: 'Bodoni Moda', serif;
+        letter-spacing: .09em;
+    }
+   .images {
+    display: flex;
+    justify-content:center
+    }
+
+    body {
+        margin: 0;
+    }
+    #myVideo {
+        width: 100%;
+    }
+    .zagolovok {
+        display: flex;
+        justify-content: center;
+    }
+    .proValu {
+        display: flex;
+        justify-content: center;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    .Vale {
+        letter-spacing: .05em;
+        font-family: 'Bodoni Moda', serif;
+        color: RGB(115, 115, 115);
+        padding: 5px;
+        width: 80%;
+        font-size: 18px;
+    }
+    .Valentina {
+        font-size: 20px;
+    }
+    .restpic {
+        width: 650px;
+        opacity:0.9 ;
+    
+    }
+    .story {
+        display: flex;
+        justify-content: center;
+        padding: 60px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    .first {
+        padding: 20px;
+    }
+    .second {
+        padding: 20px;
+        letter-spacing: .05em;
+        font-family: 'Bodoni Moda', serif;
+        font-size: 10px;
+        margin-top: 30px;
+    }
+    .neme {
+        font-size: 30px;
+    }
+    
+    .yiddishe {
+        font-family: 'Bodoni Moda', serif;
+        font-size: 17px;
+        color:RGB(115, 115, 115);
+    }
+    
+    .our {
+        font-family: 'Bodoni Moda', serif;
+        font-size: 18px;
+        letter-spacing: .03em;
+        padding: 30px;
+        line-height: 1.5;
+        color: RGB(115, 115, 115)
+}
+    
+
+    .foody {
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+    }
+    .meat {
+       width: 450px; 
+       padding: 10px;
+       opacity: 0.8;
+    }
+.abzac {
+    display: flex;
+    
+    margin-left: 120px;
+    padding: 10px; 
+    width: 80%;
+    margin-top: -50px;
+     
+    
+    
+    
+    
+}
+    .perviy {
+        width: 50%;
+        font-family: 'Bodoni Moda', serif;
+        font-size: 18px;
+        letter-spacing: .03em;
+        padding: 30px;
+        line-height: 1.5;
+        color: RGB(115, 115, 115);
+        
+       
+    }
+    .perviytwo {
+        width: 50%;
+        font-family: 'Bodoni Moda', serif;
+        font-size: 18px;
+        letter-spacing: .03em;
+        padding: 30px;
+        line-height: 1.5;
+        color: RGB(115, 115, 115)
+    }
+    .view {
+        display: flex;
+        justify-content: center;
+    }
+    .vieww {
+        padding: 25px;
+        font-family: 'Bodoni Moda', serif;
+        font-size: 20px;
+        letter-spacing: .03em;
+        border-radius:30px;
+        border-color: rgb(65, 65, 65);
+        
+    }
+   .vieww:hover {
+    background-color: black;
+    color: whitesmoke;
+    
+   }
+    .kitc {
+        width: 100%;
+        padding-top: 50px;
+        opacity: 0.7;
+        ;
+    }
+.the {
+    display: flex;
+    justify-content: center;
+    margin-top: -600px;
+    /*color: rgb(27, 28, 28);*/
+    color: black;
+    font-size: 90px;
+    letter-spacing: .1em;
+}
+.TheAYM {
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+    color: black;
+    font-size: 20px;
+    letter-spacing: .05em;
+}
+.rabotniki {
+    display: flex;
+    justify-content: center;
+    margin-top: 350px;
+    margin-left: 30px;
+    
+}
+.feature {
+    font-family: 'Bodoni Moda', serif;
+        font-size: 18px;
+        letter-spacing: .03em;
+        padding: 30px;
+        line-height: 1.5;
+        color: RGB(115, 115, 115)
+}
+.black {
+    color: black;
+}
+.plow {
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    }
+    .foot {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    .contacta {
+        font-weight: bold;
+        font-style: italic;
+    }
+.phonee {
+    margin-left: -19px;
+}
+.addressa {
+    margin-left: -30px;
+}
+.code {
+    margin-left: -40px;
+}
+.star {
+    margin-left: 70px;
+    font-size: 15px;
+}
+.celebrate {
+    display: flex;
+    justify-content: center;
+}
+.celebration {
+    width:1000px;
+    opacity;
+    filter: grayscale(50%)
+    
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+}
+.gal {
+    width: 300px;
+    padding: 20px;
+}
+.galleryMenu {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+.menuName {
+font-family:font-family: 'Bodoni Moda', serif;
+font-size: 25px;
+letter-spacing: .05em; ;
+}
+.horizonMainParent {
+    display: flex;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color
+    
+   
+}
+.longer {
+    margin-left: 30px;
+    margin: 20px;
+    
+    font-family:'Bodoni Moda', serif;
+font-size: 15px;
+
+
+}
+.knopka {
+    display: flex;
+}
+.knobka {
+    background-color: rgb(62, 62, 62);
+    color: whitesmoke;
+    font-family:'Bodoni Moda', serif;
+    letter-spacing: .05em;
+    width: 300px;
+    padding: 20px;
+}
+.shortly {
+    font-family:'Bodoni Moda', serif;
+    font-size: 20px;
+}
+.visit {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+
+    
+}
+    .verticVisit {
+        
+        padding: 60px;
+    }
+.formtwo {
+    
+    padding: 60px;
+    margin-left: 100px;
+}
+.policyinfo {
+    font-size: 15px;
+    font-family:'Bodoni Moda', serif;
+    letter-spacing: .05em;
+
+}
+.booking {
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    cursor: pointer;
+}
+.booking:hover {
+    background-color:#A7727D;
+    border: none;
+    padding: 15px;
+    color:whitesmoke
+}
+.justBook {
+    font-family:'Bodoni Moda', serif;
+    letter-spacing: .09em;
+    font-size: 15px;
+ 
+}
+ .maps {
+    width: 100%;
+    padding-left: 180px;
+    
+    margin-top: 30px;
+    
+ }   
+ .MapsAndHours {
+    display: flex;
+    justify-content: center;
+    
+    margin-left: 190px;
+    padding: 60px;
+ }
+ .info {
+    font-size: 20px;
+    padding: 20px;
+ }
+ .moreInfo {
+    font-family:'Bodoni Moda', serif;
+     font-size: 15px;
+     
+ }
+ .review {
+    display: flex;
+    justify-content: center;
+ }
+ .reviews {
+    font-family:'Bodoni Moda', serif;
+    letter-spacing: .09em;
+    font-size: 25px;
+    padding: 30px;
+ 
+ }
+ .review {
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .before {
+    font-size: 13px;
+ }
+ .moreAbout {
+    font-size: 19px;
+   }
+   .join {
+    font-family:'Bodoni Moda', serif;
+    letter-spacing: .02em;
+    font-size: 20px;
+   }
+   
+   
+   .subscribe {
+    width: 30%;
+    padding: 15px;
+    margin-top: 30px;
+    background-color: black;
+    color: whitesmoke;
+    
+   }
+   .subscribe:hover {
+    background-color: bisque;;
+    border: none;
+    padding: 15px;
+    color: black
+}
+   .chatButton {
+    background-color: #A7727D;
+    color: black;
+    width: 200px;
+    padding: 20px;
+   }
+   
+.myself {
+    display: flex;
+    justify-content: center;
+}
+  .me {
+    padding-top: 50px;
+    font-family:'Bodoni Moda', serif;
+   text-transform: uppercase;
+    font-size: 15px;
+   }
+  .doIt {
+    font-family:'Bodoni Moda', serif;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+   .mypicture {
+    opacity: 0.9;
+   }
+
+   @media all and (max-width:800px) {
+    .the {
+        margin-top: -250px;
+    }
+    .rabotniki {
+        margin-top: 20px;
+    }
+    .foody {
+        width: 25%
+    }
+    .moreAbout {
+        font-size: 15px;
+    }
+   } 
+
+   @media all and (max-width:500px) {
+    .horizontal {
+        flex-wrap: wrap;
+    }
+    .foody {
+        width:100%;
+        flex-wrap: wrap;
+
+    }
+    .abzac {
+        flex-wrap: wrap;
+    }
+    .the {
+        margin-top: -110px;
+        font-size: 35px;
+    }
+    .TheAYM {
+        margin-top: -50px;
+    }
+    .rabotniki {
+        flex-wrap: wrap;
+    }
+   
+    
+    .contac {
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .neme {
+        font-size: 10px;
+        margin-left: 15px;
+        
+    }
+    .foot {
+        flex-wrap: wrap;
+    }
+   .visit {
+    flex-wrap: wrap;
+   }
